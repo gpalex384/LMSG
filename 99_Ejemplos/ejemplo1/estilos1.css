@@ -1,0 +1,10 @@
+/*selector de clase (se puede agrupar)*/
+
+/*selector de id (solo uno)*/
+
+/*Selector de etiqueta */
+p {
+    color: red;
+    width: 500px;
+    border: 1px  solid black;
+}
