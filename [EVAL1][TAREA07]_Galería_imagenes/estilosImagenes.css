@@ -1,0 +1,51 @@
+body{
+    background-color: #D9D9D9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+figure{
+    display: inline-block;
+    margin: 30px;
+    padding: 10px;
+    background-color:  #D9D9D9;
+    height: 280px;
+    width: 220px;
+}
+img{
+    width: 220px;
+    height: 150px;
+}
+figcaption{
+    background-color: white;
+    height: 110px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.title{
+    margin: 10px;
+    height: 100px;
+    background-color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.central{
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin: 10px;
+    background-color: white;
+}
+
+.foto{
+    display: inline;
+    width: 200px;
+    height: 400px;
+
+}
+
+#titleText{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}

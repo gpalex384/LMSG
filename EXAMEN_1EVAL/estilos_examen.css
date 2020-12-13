@@ -1,0 +1,98 @@
+header{
+    background-color: chocolate;
+    text-decoration-color: chartreuse;
+}
+
+body {
+    background-color: rgb(223, 255, 215);
+}
+
+th, td{
+    text-align: center;
+}
+
+h1 {
+    color: chartreuse; 
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 6px;
+}
+h2 {
+    text-align: center; 
+    text-decoration: underline chocolate;
+    text-decoration-thickness: 1px;
+}
+h3 {
+    text-align: center; 
+    padding-left: 20px;
+}
+
+p {
+    color:rgb(121, 68, 0); 
+    font-size: smaller; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+
+ul{
+    margin-left: 43%;
+    margin-right: 33%;
+}
+
+li{
+    font-size: large;
+}
+
+img{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+img:hover {
+    transform: scaleX(-1);
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+span{
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    color: chocolate;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.title{
+    border-bottom: 2px  solid chocolate;
+}
+
+#whoWeAre{
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+#principal{
+    margin-left: 37%;
+}
+
+#precio{
+    text-align: center; 
+    padding-left: 20px;
+    font-size: 30px;
+    font-style: oblique;
+}
+
