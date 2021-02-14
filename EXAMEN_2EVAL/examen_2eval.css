@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+}
+
+header {
+    padding: 0;
+    background-color: lavender;
+    text-align: center;
+    border-bottom: 1px solid rgba(27, 211, 171, 0.507);
+}
+
+nav {
+    background-color: rgb(27, 211, 171);
+    max-height: 46px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+  
+nav li {
+    float: left;
+}
+  
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: large;
+    text-decoration: none;
+}
+  
+nav li a:hover {
+    background-color: rgb(11, 91, 94);
+    font-weight: 650;
+    color: white;
+}
+
+li img {
+    padding: 1px 10px;
+    height: 44px;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main p {
+    margin: 30px;
+    margin-top: 10px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+td {
+    width: 50%;}
+
+article {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    margin-left: 15px;
+}
+
+section:hover {
+    box-shadow: 2px 2px rgba(36, 143, 161, 0.521) ;
+}
+
+footer {
+    background-color: rgb(27, 211, 171);
+    opacity: 0.5;
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer:hover {
+    opacity: 1;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Courier New', Courier, monospace
+}
+
+h1 {
+    margin: 0;
+    padding-top: 20px;
+    text-decoration: underline solid 1px rgb(11, 91, 94);
+}
+
+h2 {
+    text-decoration: underline;
+    color: rgb(11, 91, 94);
+    padding-left: 15px;
+}
+
+h3 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(27, 211, 171, 0.507);
+}
+
+h4 {
+    color: rgb(11, 91, 94);
+}
+
+h5 {
+    text-decoration: underline;
+    color: rgb(11, 91, 94);
+    font-size: medium;
+    padding-left: 15px;
+}
+
+audio {
+    margin-left: 30px;
+}
+
+p {
+    margin: 0;
+    padding: 10px
+}
+
+.redondea {
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.negritaAzul {
+    color: rgb(11, 91, 94);
+}
+
+.fuenteGoogle {
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 15px;
+}
+
+#logoItem {
+    float: right;
+    margin: 0;
+}
+
+#abstract {
+    font-style: oblique;
+    text-align: justify;
+    padding-bottom: 15px;
+}
+
+#resumen {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#autorFecha {
+    font-family: Arial, Helvetica, sans-serif;
+}
