@@ -83,6 +83,7 @@ footer {
     opacity: 0.5;
     text-align: center;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 footer:hover {
