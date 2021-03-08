@@ -214,10 +214,3 @@ a {
     text-shadow: coral;
     font-size: small;
 }
-
-#imagenRN {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
-}
