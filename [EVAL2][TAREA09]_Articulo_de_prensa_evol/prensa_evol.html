@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Tarea9] Art.PrensaEvol</title>
+    <link rel="stylesheet" href="prensa_evol.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <p>
+            <img id="imagenPrincipal" src="images/electronic_circuit.PNG" alt="" width="250px">
+            <h1> >>INTELIGENCIA ARTIFICIAL </h1>
+        </p>
+        <nav>
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/Inteligencia_artificial" target="_blank"> INICIO </a></li>
+                <li><a href="https://www.iberdrola.com/innovacion/que-es-inteligencia-artificial" target="_blank"> SABER M&Aacute;S </a></li>
+                <li><a href="https://www.linkedin.com/in/gpalex/" target="_blank"> QUI&Eacute;NES SOMOS </a></li>
+                <a href="https://www.edx.org/es/course/machine-learning-fundamentals-2?index=spanish_product&queryID=b52718b8fa8bb0cd0016cb375d616f5b&position=7" target="_blank"><abbr title="Curso de ML en EDX"> <li id="logoItem"><img src="images/ML_course.PNG" alt="logo_der"></li></abbr></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside>  <!--Barra lateral-->
+            <article>
+                <section class="seccionAside">
+                    <h5>¡Ya han llegado los robots!</h5>
+                    <video controls height="auto" width="90%" poster="images/IA_poster.PNG">
+                        <source src="multimedia/IA_video.mp4">
+                            <p>Your browser does not support this amazing video. </p>
+                    </video>
+                </section>
+                <section class="seccionAside">
+                    <p id="textoAside">Los robots son el elemento que m&aacute;s nos viene a la cabeza cuando hablamos de ML e IA. Si miramos alrededor, ¡ya estamos interactuando con ellos!</p>
+                </section>
+            </article> 
+        </aside>
+        <article>
+            <header>
+                <hgroup>
+                    <h2>MACHINE LEARNING. ¿ALIADO O AMENAZA?</h2>
+                    <img class="redondea" src="images/ML1.PNG" alt="openScience" height="150px">
+                    
+                    <p>
+                        El campo del Machine Learning dentro de la Inteligencia Artificial es una realidad, est&aacute; aqu&iacute;, y ha llegado para quedarse. <br>
+                        Sin embargo, no sabemos nada de esta disciplina tan alien&iacute;gena. De hecho, seguramente te abrume un sentimiento de fascinaci&oacute;n o terror
+                        cuando se te ocurre pensar en el alcance que puede llegar a tener una inteligencia creada por la humanidad, un sentimiento alentado por Hollywood y la 
+                        prensa sensacionalista. Es decir, te est&aacute;s imaginando un <span>Terminator</span> corriendo hacia ti e intentando matarte. Bueno, quiz&aacute;s 
+                        no te est&aacute;s imaginando exactamente eso, pero ya me entiendes. <br><br>
+                        A continuaci&oacute;n vamos a ver que no nos perseguir&aacute; nuestro amigo <span>Arnold</span> casi con total seguridad, pero 
+                        s&iacute; que debemos prestar atenci&oacute;n a estos puntos si no queremos tener problemas con esta tecnolog&iacute;a que, 
+                        recordemos, ya es una realidad en nuestros d&iacute;as.
+                    </p>
+                </hgroup>
+            </header>
+            <section>
+                <h3>Algoritmos sesgados</h3>
+                <p>
+                    Para que una Inteligencia Artificial (IA) aprenda mediante los mecanismos del Machine Learning, esa IA debe estar expuesta a una serie de datos 
+                    reales. A partir de estos datos, detecta patrones y genera una serie de 'leyes' que sigue para tomar sus decisiones. Hasta aqu&iacute; te sonar&aacute;, 
+                    ¿verdad? Lo que probablemente no has pensado es que, si la IA aprende de la realidad de su entorno, puede aprender cosas que no queremos que aprenda. <br>
+                    Por ejemplo, imagina que ense&ntilde;amos a una IA exponi&eacute;ndola a datos de contrataci&oacute;n de varias empresas (salarios, puestos de trabajo, adhesi&oacute;n al 
+                    convenio...) para que sea el sistema el que contrate autom&aacute;ticamente. Cuando lo ponemos a trabajar, asigna mayores salarios y puestos de 
+                    m&aacute;s responsabilidad a los hombres que a las mujeres. ¿Qu&eacute; ha pasado? <br>
+                    Como hemos dicho, la IA aprende mediante Machine Learning a trav&eacute;s de datos de la realidad. Si la realidad de la que aprende est&aacute; sesgada, y tiene patrones 
+                    con tintes de machismo, racismo o cualquier tipo de prejuicio, lo aprender&aacute; de igual manera, sin distinguir si es bueno o malo. <br><br>
+                    Por suerte, este es un problema conocido y los expertos ya ponen en marcha herramientas para evitarlo. 
+                </p>
+            </section>
+            <section>
+                <h3>Cajas negras con responsabilidades</h3>
+                <p>
+                    Al algoritmo al que se entrena con Machine Learning, se le denomina com&uacute;nmente 'caja negra', ya que de forma habitual se puede
+                    entrenar el sistema ofreci&eacute;ndole datos de entrada y de salida, sin la necesidad de comprender los entresijos que esconde esta tecnolog&iacute;a. 
+                    Esto la hace tremendamente potente en cuanto a usabilidad, ya que no es necesario ser un experto matem&aacute;tico o estad&iacute;stico para implementar un 
+                    aprendizaje autom&aacute;tico. <br> Por contra, la creciente complejidad de los algoritmos de Machine Learning hace cada vez m&aacute;s dif&iacute;cil comprender qu&eacute; 
+                    es lo que ocurre, con precisi&oacute;n, dentro de dichas 'cajas negras'. Este hecho, unido al de que casi cualquiera puede utilizar esta 
+                    tecnolog&iacute;a, nos puede llevar a usos poco responsables que pueden desembocar en situaciones potencialmente peligrosas. <br><br>
+                    Como ejemplo, os dejo un art&iacute;culo sobre el <a href="https://espabot.es/acabara-la-inteligencia-artificial-con-wall-street/">flash crash</a>, 
+                    una ca&iacute;da sin precedentes que se produjo en Wall Street y que se dice que sistemas de IA entrenados con Machine Learning tuvieron mucho que ver.
+                </p>
+            </section>
+            <section>
+                <h3>Cambios disruptivos</h3>
+                <p>
+                    Como ya puedes intuir, el potencial del Machine Learning es enorme. En mi opini&oacute;n, es una tecnolog&iacute;a que acompañar&aacute; a la humanidad 
+                    a lo largo de su historia, provocando desde el medio plazo cambios con un impacto econ&oacute;mico y social comparable, como m&iacute;nimo, al impacto 
+                    que tuvo la revoluci&oacute;n industrial. Muchos empleos, sobre todo aquellos que no demanden intuici&oacute;n, creatividad, o cualquier otra cualidad humana 
+                    que no pueda tener una IA, dejar&aacute;n de tener sentido al no poder competir con una m&aacute;quina. A d&iacute;a de hoy, por ejemplo, existen coches que circulan 
+                    de forma aut&oacute;noma, sin conductor, y hay estudios que indican que la conducci&oacute;n aut&oacute;noma ser&aacute; capaz de reducir dr&aacute;sticamente la cantidad de accidentes 
+                    de tr&aacute;fico. Por consiguiente, muchos profesionales de los sectores del transporte y la log&iacute;stica perder&aacute;n el empleo en el medio plazo. De la misma manera, 
+                    recepcionistas, gestores de rutas de tr&aacute;nsito o inversores, se ver&aacute;n superados en eficacia por una IA entrenada. Incluso con el llamado <i>e-health</i>, 
+                    la prevenci&oacute;n de enfermedades har&aacute; que sean necesarios menos m&eacute;dicos. <br>
+                    Por otra parte, habr&aacute; menos enfermedad, menos accidentes de tr&aacute;fico, menos trabajo perjudicial para la salud, y una cantidad innumerable de ventajas que 
+                    se podr&aacute;n conseguir con una aplicaci&oacute;n adecuada de la &eacute;tica para el desarrollo de esta tecnolog&iacute;a. <br><br>
+                    Ser&aacute; necesario tener en cuenta muy seriamente el impacto que tendr&aacute; - y est&aacute; teniendo - el Machine Learning como campo de la Inteligencia 
+                    Artificial en la sociedad, si no queremos vivir crisis importantes derivadas del desconocimiento del alcance de esta tecnolog&iacute;a.
+                </p>
+            </section>
+            
+        </article>
+    </main>
+    <footer>
+        <p>Elaboraci&oacute;n de la p&aacute;gina: Alejandro Garc&iacute;a Pozo <br>Contacto: <a href="https://www.linkedin.com/in/gpalex/">gpalex</a> <br> El contenido de esta p&aacute;gina est&aacute; basado en el v&iacute;deo de este <a href="https://www.youtube.com/watch?v=W9jrzZ6pia0">enlace</a> <br>  </p>
+    </footer>
+</body>
+</html>

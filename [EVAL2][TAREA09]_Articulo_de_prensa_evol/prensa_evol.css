@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    background: linear-gradient(rgba(27, 211, 171, 0), rgba(113, 106, 212, 0.2)), url("images/background_IA.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 1000px;
+}
+
+header {
+    border-bottom: 1px solid rgba(27, 211, 171, 0.507);
+    background-color: rgba(139, 167, 161, 0.98);
+}
+
+img {
+    float: right;
+}
+
+nav {
+    background-color: rgba(92, 205, 240, 0.575);
+    max-height: 53px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 30px;
+    overflow: hidden;
+    width: 95%;
+}
+  
+nav li {
+    float: left;
+}
+  
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 19px 19px;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+}
+  
+nav li a:hover {
+    background-color: rgb(11, 91, 94);
+    color: white;
+}
+
+li img {
+    padding: 4px 10px;
+    height: 44px;
+}
+
+
+li {
+    list-style-type: none;
+    text-align: left;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0 2%;
+}
+
+aside {
+    float: right;
+    height: 600px;
+    width: 18%;
+    border: 1px solid black;
+    background-color: rgba(92, 205, 240, 0.96);
+    min-width: 200px;
+}
+
+main p {
+    margin: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+article {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 20%;
+}
+
+aside article {
+    margin: 0;
+    min-width: none;
+}
+
+section {
+    margin-left: 15px;
+    background-color: rgba(139, 167, 161, 0.98);
+}
+
+aside section {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+section:hover {
+    box-shadow: 2px 2px rgba(36, 143, 161, 0.521) ;
+}
+
+footer {
+    background-color: rgb(27, 211, 171);
+    opacity: 0.5;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer:hover {
+    opacity: 1;
+}
+
+footer a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Courier New', Courier, monospace
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 40% 10px 60px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: rgb(78, 0, 0);
+}
+
+h2 {
+    text-decoration: underline;
+    color: rgb(78, 0, 0);
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+h3 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(7, 63, 95, 0.863);
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+h4 {
+    color: rgba(7, 63, 95, 0.863);
+}
+
+h5 {
+    color: rgba(7, 63, 95, 0.863);
+    font-size: medium;
+    text-align: center;
+    padding: 0 5% 0 5%;
+}
+
+video {
+    padding: 5%;
+}
+
+p {
+    margin: 0;
+    padding: 10px;
+    color: rgb(39, 12, 12);
+}
+
+a {
+    font-family: 'Press Start 2P', cursive;
+    font-size: small;
+    text-decoration: none;
+}
+
+.seccionAside {
+    background-color: rgba(92, 205, 240, 0.96);
+    margin: 0;
+    padding: 0;
+}
+
+.redondea {
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+.fuenteGoogle {
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 15px;
+}
+
+#imagenPrincipal {
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+#logoItem {
+    float: right;
+    margin: 0;
+    border: 1px solid black;
+    padding: 0px;
+    background-color: rgba(7, 63, 95, 0.863);
+}
+
+#textoAside {
+    text-align: left;
+    text-shadow: coral;
+    font-size: small;
+}
+
+#resumen {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#autorFecha {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#imagenRN {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
