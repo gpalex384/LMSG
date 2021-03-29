@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea11_IMC_P2</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div>
+        <h1>CALCULADORA DE ÍNDICE DE MASA CORPORAL (IMC)</h1>
+    </div>
+    <div class="formulario">
+        <form action="">
+            <ul>
+                <li>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </li>
+                <li>
+                    <label for="edad">Edad:</label>
+                    <input class="numerico" type="text" id="edad" name="edad">
+                </li>
+                <li>
+                    <label for="peso">Peso (kg):</label>
+                    <input class="numerico" type="text" step="0.1" id="peso" name="peso">
+                </li>
+                <li>
+                    <label for="altura">Altura (m):</label>
+                    <input class="numerico" type="text" step="0.01" id="altura" name="altura">
+                </li>
+                <li>
+                    <label for="imc">IMC:</label>
+                    <input class="numerico" type="text" id="imc" name="imc" readonly>
+                </li>
+                <li id="boton">
+                    <button onclick="return calcularImc();">Calcular</button>
+                </li>
+                <li>
+                    <label id="mensaje"></label>
+                </li>
+            </ul>
+        </form>
+    </div>
+    <!--
+        Se incorpora el js con la etiqueta script al final del body, justo antes de cerrarlo.
+        Para que el html se pueda ejecutar aunque falle el js.
+        MOZILLA es uno de los fabricantes, será referencia siempre para buscar js
+    -->
+    <script src="./js/app.js">
+
+    </script>
+</body>
+</html>
