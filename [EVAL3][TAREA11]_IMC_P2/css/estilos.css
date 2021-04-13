@@ -1,9 +1,11 @@
 body {
-    background-color: gray;
+    background-color: rgb(182, 168, 190);
 }
 
 h1 {
     text-align: center;
+    color: #00af06;
+    text-decoration: underline;
 }
 
 form {
@@ -79,4 +81,8 @@ button:hover {
     width: 300px;
     margin-top: 30px;
     margin-left: 0;
+}
+
+#imc {
+    background-color: rgb(107, 255, 107);
 }
