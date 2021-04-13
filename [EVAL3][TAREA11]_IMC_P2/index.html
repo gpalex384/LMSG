@@ -30,13 +30,16 @@
                     <label for="altura">Altura (m):</label>
                     <input class="numerico" type="text" step="0.01" id="altura" name="altura">
                 </li>
+                <!--Elemento input, readonly, para sacar por pantalla el resultado-->
                 <li>
                     <label for="imc">IMC:</label>
                     <input class="numerico" type="text" id="imc" name="imc" readonly>
                 </li>
+                <!--Botón-->
                 <li id="boton">
                     <button onclick="return calcularImc();">Calcular</button>
                 </li>
+                <!--Mensaje simple de resultado-->
                 <li>
                     <label id="mensaje"></label>
                 </li>
