@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Examen_3Eval</title>
+</head>
+<body>
+    <header>
+        <p>
+            <img id="imagenPrincipal" src="drawable/calcular-media.jpg" alt="" width="100px">
+            <h1> CALCULADORA DE MEDIAS </h1>
+        </p>
+        <!--
+        <nav>
+            <ul>
+                <li> PRIMER CURSO </li>
+                <li> SEGUNDO CURSO </li>
+            </ul>
+        </nav>
+        -->
+    </header>    
+    <main>
+        <table>
+            <tr>
+                <td>
+                    <div id="asignaturas" class="formulario">
+                        <form action="">
+                            <ul>
+                                <!--Elementos label + input para introducir las notas.-->
+                                <li>
+                                    <label for="modulo1">Programaci&oacute;n</label>
+                                </li>
+                                <li>
+                                    <input type="text" id="mod1" name="modulo1">
+                                </li>
+                                <li>
+                                    <label for="modulo2">Bases de datos</label>
+                                </li>
+                                <li>
+                                    <input type="text" id="mod2" name="modulo2">
+                                </li>
+                                <li>
+                                    <label for="modulo3">Entornos de desarrollo</label>
+                                </li>
+                                <li>
+                                    <input type="text" id="mod3" name="modulo3">
+                                </li>
+                                <li>
+                                    <label for="modulo4">Lenguajes de marcas</label>
+                                </li>
+                                <li>
+                                    <input type="text" id="mod4" name="modulo4">
+                                </li>
+                                <!--Botón para calcular la media-->
+                                <li id="botonCalcular">
+                                    <button onclick="return calcularMedia();">Calcular</button>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                </td>
+                <td>
+                    <div id="resultado" class="formulario">
+                        <form action="">
+                            <ul>
+                                <!--Elemento label + input para introducir automáticamente el resultado-->
+                                <li>
+                                    <label for="media">Media</label>
+                                </li>
+                                <li>
+                                    <input class="soloLectura" type="text" id="media" name="media" readonly>
+                                </li>
+                                <!--Mensaje simple de resultado-->
+                                <li>
+                                    <label id="mensaje"></label>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    Un producto realizado por Alejandro Garc&iacute;a
+                </td>
+                <td>
+                    Direcci&oacute;n: Calle M&aacute;laga 24
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Dentro del m&oacute;dulo LLMM
+                </td>
+                <td>
+                    46009 Valencia, Valencia
+                </td>
+            </tr>
+        </table>
+    </footer>
+    <!--
+    Se incorpora el js con la etiqueta script al final del body, justo antes de cerrarlo.
+    Para que el html se pueda ejecutar aunque falle el js.
+    MOZILLA es uno de los fabricantes, será referencia siempre para buscar js
+    -->
+    <script src="./js/app.js">
+
+    </script>
+</body>
+</html>
