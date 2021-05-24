@@ -14,8 +14,10 @@ function calcularMedia(){
     bbdd = document.getElementById("mod2");
     ed = document.getElementById("mod3");
     llmm = document.getElementById("mod4");
+    ing = document.getElementById("mod5");
     mensajeLabel = document.getElementById("mensaje");
-    media = document.getElementById("media");
+    media1 = document.getElementById("media1");
+    media2 = document.getElementById("media2");
 
     
 
@@ -24,7 +26,7 @@ function calcularMedia(){
     || prog.value < 0 || bbdd.value < 0 || ed.value < 0 || llmm.value < 0
     || prog.value > 10 || bbdd.value > 10 || ed.value > 10 || llmm.value > 10 
     || prog.value == "" || bbdd.value == "" || ed.value == "" || llmm.value == "") {
-        media.value = "ERROR";
+        media1.value = "ERROR";
         err=true;
     } else {
         progv = parseFloat(prog.value);
@@ -36,7 +38,7 @@ function calcularMedia(){
     // Realizamos el cálculo si el input está validado
     if (!err) {
         resultado=((progv + bbddv + edv + llmmv)/4).toFixed(2);
-        media.value = resultado;
+        media1.value = resultado;
         if (resultado < 5) {
             mensaje = "Desgraciadamente, tienes que repetir curso.";
         } else if (resultado < 7) {
@@ -49,6 +51,17 @@ function calcularMedia(){
         if ((progv < 5 || bbddv < 5 || edv < 5 || llmmv < 5) && media.value >= 5) {
             mensaje += "\n Sin embargo, tendrás que repetir alguna asignatura el curso que viene."
         }
+
+        // Examen parte 2
+        if (isNaN(ing.value) || ing.value < 0 || ing.value > 10 || ing.value == "") {
+            media2.value = "ERROR";
+            mensaje += " Por otra parte, la nota de inglés está mal introducida."
+        }
+        else {
+            ingv = parseFloat(ing.value);
+            media2.value = ((resultado*4) + ingv) / 5;
+        }
+
     }
     // Escribimos un mensaje de error si falla la validación de datos
     else {
